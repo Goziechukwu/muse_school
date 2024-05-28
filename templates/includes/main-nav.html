@@ -17,11 +17,11 @@
                 Harmonic Beginnings
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="harmonic-link">
-                <a href="" class="dropdown-item">Music Theory Basics</a>
-                <a href="" class="dropdown-item">Violin Fundamentals</a>
-                <a href="" class="dropdown-item">Guitar Basics</a>
-                <a href="" class="dropdown-item">Piano Introduction</a>
-		        <a href="" class="dropdown-item">Saxophone Beginnings</a>
+                <a href="{% url 'products' %}?category=music_theory,basics" class="dropdown-item">Music Theory Basics</a>
+                <a href="{% url 'products' %}?category=violin,fundamentals" class="dropdown-item">Violin Fundamentals</a>
+                <a href="{% url 'products' %}?category=guitar,basics" class="dropdown-item">Guitar Basics</a>
+                <a href="{% url 'products' %}?category=piano,introduction" class="dropdown-item">Piano Introduction</a>
+		        <a href="{% url 'products' %}?category=saxophone,beginnings" class="dropdown-item">Saxophone Beginnings</a>
             </div>
         </li>
 
@@ -30,11 +30,11 @@
                 Melodic Journeys
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="melodic-link">
-                <a href="" class="dropdown-item">Intermediate Music Theory</a>
-                <a href="" class="dropdown-item">Violin Techniques</a>
-                <a href="" class="dropdown-item">Guitar Intermediate Skills</a>
-		        <a href="" class="dropdown-item">Piano Skills Development</a>
-		        <a href="" class="dropdown-item">Saxophone Techniques</a>
+                <a href="{% url 'products' %}?category=music_theory,intermediate" class="dropdown-item">Intermediate Music Theory</a>
+                <a href="{% url 'products' %}?category=violin,techniques" class="dropdown-item">Violin Techniques</a>
+                <a href="{% url 'products' %}?category=guitar,intermediate,skills" class="dropdown-item">Guitar Intermediate Skills</a>
+		        <a href="{% url 'products' %}?category=piano,skills,development" class="dropdown-item">Piano Skills Development</a>
+		        <a href="{% url 'products' %}?category=saxophone,techniques" class="dropdown-item">Saxophone Techniques</a>
             </div>
         </li>
 
@@ -43,10 +43,10 @@
                 Symphonic Mastery
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="symphonic-link">
-                <a href="" class="dropdown-item">Advanced Music Theory</a>
-                <a href="" class="dropdown-item">Violin Proficiency</a>
-                <a href="" class="dropdown-item">Guitar Advanced Techniques</a>
-                <a href="" class="dropdown-item">Saxophone Mastery</a>
+                <a href="{% url 'products' %}?category=music_theory,advanced" class="dropdown-item">Advanced Music Theory</a>
+                <a href="{% url 'products' %}?category=violin,proficiency" class="dropdown-item">Violin Proficiency</a>
+                <a href="{% url 'products' %}?category=guitar,advanced,techniques" class="dropdown-item">Guitar Advanced Techniques</a>
+                <a href="{% url 'products' %}?category=saxophone,mastery" class="dropdown-item">Saxophone Mastery</a>
             </div>
         </li>
     </ul>
