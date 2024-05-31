@@ -6,7 +6,7 @@ from django.contrib import messages
 from django.conf import settings
 
 from .forms import OrderForm
-from .models import Order
+from .models import Order, Product
 
 from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
@@ -37,6 +37,9 @@ def checkout(request):
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
     if request.method == 'POST':
+        product_id = request.POST.get('product_id')
+        product = get_object_or_404(Product, id=product_id)
+
         form_data = {
             'full_name': request.POST['full_name'],
             'email': request.POST['email'],
@@ -54,6 +57,7 @@ def checkout(request):
             order = order_form.save(commit=False)
             pid = request.POST.get('client_secret').split('_secret')[0]
             order.stripe_pid = pid
+            order.product = product  # Link the product to the order
             order.save()
 
             # Save the info to the user's profile if needed
@@ -64,7 +68,9 @@ def checkout(request):
             messages.error(request, ('There was an error with your form. '
                                      'Please double check your information.'))
     else:
-        price = 1000  # Example fixed price for the digital product in cents
+        product_id = request.GET.get('product_id')
+        product = get_object_or_404(Product, id=product_id)
+        price = int(product.price * 100)  # Convert to cents
         stripe.api_key = stripe_secret_key
         intent = stripe.PaymentIntent.create(
             amount=price,
@@ -101,6 +107,7 @@ def checkout(request):
         'order_form': order_form,
         'stripe_public_key': stripe_public_key,
         'client_secret': intent.client_secret,
+        'product': product,
     }
 
     return render(request, template, context)
