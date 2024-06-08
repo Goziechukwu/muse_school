@@ -58,6 +58,7 @@ def checkout(request):
             pid = request.POST.get('client_secret').split('_secret')[0]
             order.stripe_pid = pid
             order.product = product  # Link the product to the order
+            order.user_profile = profile
             order.save()
 
             # Save the info to the user's profile if needed
