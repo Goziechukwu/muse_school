@@ -148,11 +148,23 @@ The Gitpod workspace was used to write the code with the Code Institute's Templa
 • The fonts used were obtained from the Google Fonts library in google
 
 
-## Testing Forms and Views
+## Testing
 
 The forms and views have been tested successfully on the gitpod workspace terminal and the tests and no issues(problems) were identified.
 
-<img src="./static/images/test-run-success.PNG" alt="Testing Results for Forms and Views">
+The deployed website built successfully on heroku
+
+<img src="./static/images/heroku-build-test.PNG" alt="Heroku Build Test">
+
+<img src="./static/images/web-test1.PNG" alt="Testing Results for Deployed Site 1">
+
+<img src="./static/images/web-test2.PNG" alt="Testing Results for Deployed Site 2">
+
+<img src="./static/images/web-test3.PNG" alt="Testing Results for Deployed Site 3">
+
+<img src="./static/images/web-test4.PNG" alt="Testing Results for Deployed Site 4">
+
+<img src="./static/images/web-test5.PNG" alt="Testing Results for Deployed Site 5">
 
 
 ## Accessibility Requirements
