@@ -1,0 +1,976 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Extended Techniques",
+            "description": "This course covers advanced techniques for saxophone players looking to expand their skill set.",
+            "price": 35.00,
+            "category": 4,
+            "rating": 5.00,
+            "image": "saxophone-extended-techniques.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340156",
+            "name": "Solo and Ensemble Performances",
+            "description": "Learn the art of solo and ensemble saxophone performances with this comprehensive course.",
+            "price": 25.00,
+            "category": 4,
+            "rating": 4.00,
+            "image": "saxophone-soloing.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340157",
+            "name": "Advanced Improvisation Techniques",
+            "description": "Take your improvisation skills to the next level with this advanced saxophone course.",
+            "price": 35.00,
+            "category": 4,
+            "rating": 5.00,
+            "image": "saxophone-advanced-improvisation.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340158",
+            "name": "Different Genres",
+            "description": "Explore various music genres and learn to play saxophone in different styles.",
+            "price": 30.00,
+            "category": 4,
+            "rating": 5.00,
+            "image": "saxophone-jazz.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340159",
+            "name": "Advanced Scales and Etudes",
+            "description": "Master advanced scales and etudes to enhance your saxophone playing skills.",
+            "price": 25.00,
+            "category": 4,
+            "rating": 5.00,
+            "image": "saxophone-advanced-scales.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340160",
+            "name": "Solo Performances and Recitals",
+            "description": "Learn the art of solo saxophone performances and prepare for recitals with this course.",
+            "price": 20.00,
+            "category": 5,
+            "rating": 5.00,
+            "image": "piano-solo-performance.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340161",
+            "name": "Improvisation and Composition Basics",
+            "description": "Get started with improvisation and composition on the piano with this beginner course.",
+            "price": 30.00,
+            "category": 5,
+            "rating": 5.00,
+            "image": "piano-improvisation-and-composition.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340162",
+            "name": "Accompaniment and Collaborative Playing",
+            "description": "Learn accompaniment techniques and how to play collaboratively on the piano.",
+            "price": 25.00,
+            "category": 5,
+            "rating": 5.00,
+            "image": "piano-accompaniment.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340163",
+            "name": "Advanced Dynamics and Phrasing",
+            "description": "Master advanced dynamics and phrasing techniques to add depth to your piano playing.",
+            "price": 25.00,
+            "category": 5,
+            "rating": 5.00,
+            "image": "piano-advanced-dynamics.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340164",
+            "name": "Advanced Pieces",
+            "description": "Challenge yourself with advanced piano pieces and take your playing to the next level.",
+            "price": 25.00,
+            "category": 5,
+            "rating": 4.00,
+            "image": "piano-advanced-pieces.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340165",
+            "name": "Ensemble Playing and Performance Techniques",
+            "description": "Master ensemble playing and performance techniques with this advanced guitar course.",
+            "price": 25.00,
+            "category": 6,
+            "rating": 5.00,
+            "image": "guitar-ensemble.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340166",
+            "name": "Different Genres",
+            "description": "Explore different music genres and styles with this advanced guitar course.",
+            "price": 35.00,
+            "category": 6,
+            "rating": 4.50,
+            "image": "guitar-blues.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340167",
+            "name": "Complex Pieces and Fingerstyle Arrangements",
+            "description": "Learn complex pieces and fingerstyle arrangements with this advanced guitar course.",
+            "price": 35.00,
+            "category": 6,
+            "rating": 4.00,
+            "image": "guitar-fingerstyle-arrangement.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340168",
+            "name": "Soloing Techniques and Improvisation",
+            "description": "Master soloing techniques and improvisation on the guitar with this advanced course.",
+            "price": 44.00,
+            "category": 6,
+            "rating": 5.00,
+            "image": "guitar-soloing.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340169",
+            "name": "Advanced Chord Voicings and Inversions",
+            "description": "Learn advanced chord voicings and inversions on the guitar with this course.",
+            "price": 20.00,
+            "category": 6,
+            "rating": 4.00,
+            "image": "guitar-advanced-inversions.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340170",
+            "name": "Ensemble Playing and Chamber Music",
+            "description": "Explore ensemble playing and chamber music on the violin with this course.",
+            "price": 20.00,
+            "category": 7,
+            "rating": 4.00,
+            "image": "violin-harmonics.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340171",
+            "name": "Double Stops and Harmonics",
+            "description": "Master double stops and harmonics on the violin with this advanced course.",
+            "price": 30.00,
+            "category": 7,
+            "rating": 5.00,
+            "image": "violin-double-stops-and-harmonics.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340172",
+            "name": "Complex Pieces and Concertos",
+            "description": "Learn complex pieces and concertos on the violin with this advanced course.",
+            "price": 30.00,
+            "category": 7,
+            "rating": 5.00,
+            "image": "violin-complex-pieces.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340173",
+            "name": "Advanced Bowing Techniques",
+            "description": "Master advanced bowing techniques on the violin with this course.",
+            "price": 28.00,
+            "category": 7,
+            "rating": 5.00,
+            "image": "violin-advanced-bowing-techniques.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340174",
+            "name": "Mastering Third and Fourth Positions",
+            "description": "Master third and fourth positions on the violin with this proficiency course.",
+            "price": 25.00,
+            "category": 7,
+            "rating": 4.00,
+            "image": "mastering-violin-third-and-fourth-positions.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340175",
+            "name": "Advanced Sight-Reading and Ear Training",
+            "description": "Enhance your sight-reading and ear training skills with this advanced music theory course.",
+            "price": 30.00,
+            "category": 8,
+            "rating": 4.70,
+            "image": "music-advanced-sight-reading-and-ear-training.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340176",
+            "name": "Chord Progressions and Cadences",
+            "description": "Learn advanced chord progressions and cadences in music theory.",
+            "price": 30.00,
+            "category": 8,
+            "rating": 5.00,
+            "image": "music-chord-progressions-and-cadencies.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340177",
+            "name": "Complex Rhythms and Syncopation",
+            "description": "Master complex rhythms and syncopation techniques in music theory.",
+            "price": 25.00,
+            "category": 8,
+            "rating": 5.00,
+            "image": "complex-music-rhythms-and-syncopations.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340178",
+            "name": "Introduction to Modes",
+            "description": "Get an introduction to modes in music theory with this course.",
+            "price": 4.00,
+            "category": 8,
+            "image": "music-modes.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340179",
+            "name": "Advanced Scales",
+            "description": "Master advanced scales in music theory with this course.",
+            "price": 25.00,
+            "category": 8,
+            "rating": 4.00,
+            "image": "music-advanced-scales.jpg"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340180",
+            "name": "Transposing Simple Pieces",
+            "description": "Learn transposing simple pieces on the saxophone with this course.",
+            "price": 25.00,
+            "category": 9,
+            "rating": 4.00,
+            "image": "saxophone-piece-transpose.jpg"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340181",
+            "name": "Consistent Tone and Vibrato",
+            "description": "Master consistent tone and vibrato techniques on the saxophone with this course.",
+            "price": 30.00,
+            "category": 9,
+            "rating": 5.00,
+            "image": "saxophone-tone-consistency.jpg"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340182",
+            "name": "Playing Pieces with Accompaniment",
+            "description": "Learn to play saxophone pieces with accompaniment with this course.",
+            "price": 30.00,
+            "category": 9,
+            "rating": 4.50,
+            "image": "saxophone-with-accompaniment.jpg"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340183",
+            "name": "Basic Jazz Techniques and Improvisation",
+            "description": "Learn basic jazz techniques and improvisation on the saxophone with this course.",
+            "price": 40.00,
+            "category": 9,
+            "rating": 4.60,
+            "image": "saxophone-jazz-techniques.jpg"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340184",
+            "name": "Full Scales and Simple Etudes",
+            "description": "Master full scales and simple etudes on the saxophone with this course.",
+            "price": 40.00,
+            "category": 9,
+            "rating": 4.50,
+            "image": "saxophone-full-scales.jpg"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340185",
+            "name": "Pedal Usage",
+            "description": "Learn how to use the pedal effectively on the piano with this course.",
+            "price": 20.00,
+            "category": 10,
+            "rating": 4.50,
+            "image": "piano-pedal-usage.jpg"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340186",
+            "name": "Reading and Playing Beginner-Level Sheet Music",
+            "description": "Learn to read and play beginner-level sheet music on the piano with this course.",
+            "price": 25.00,
+            "category": 10,
+            "rating": 4.00,
+            "image": "beginner-level-piano-sheet.jpg"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340187",
+            "name": "Exploring Different Musical Styles",
+            "description": "Explore different musical styles on the piano with this course.",
+            "price": 30.00,
+            "category": 10,
+            "rating": 4.00,
+            "image": "piano-style-exploration.jpg"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340188",
+            "name": "Simple Arpeggios and Broken Chords",
+            "description": "Learn simple arpeggios and broken chords on the piano with this course.",
+            "price": 30.00,
+            "category": 10,
+            "rating": 4.50,
+            "image": "simple-arpeggios-and-broken-chords.jpg"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340189",
+            "name": "Playing with Both Hands Together",
+            "description": "Master playing with both hands together on the piano with this course.",
+            "price": 35.00,
+            "category": 10,
+            "rating": 5.00,
+            "image": "piano-with-both-hands.jpg"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340190",
+            "name": "Simple Songs Incorporating Chords and Melodies",
+            "description": "Learn simple songs incorporating chords and melodies on the guitar with this course.",
+            "price": 30.00,
+            "category": 11,
+            "rating": 5.00,
+            "image": "guitar-simple-songs-and-melodies.jpg"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340191",
+            "name": "Basic Music Theory for Guitar",
+            "description": "Learn basic music theory for guitar with this intermediate skills course.",
+            "price": 20.00,
+            "category": 11,
+            "rating": 5.00,
+            "image": "guitar-basic-music-theory.jpg"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340192",
+            "name": "Playing Simple Scales and Lead Melodies",
+            "description": "Learn to play simple scales and lead melodies on the guitar with this course.",
+            "price": 30.00,
+            "category": 11,
+            "rating": 4.50,
+            "image": "guitar-melodies.jpg"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340193",
+            "name": "Fingerstyle Picking Basics",
+            "description": "Learn fingerstyle picking basics on the guitar with this course.",
+            "price": 25.00,
+            "category": 11,
+            "rating": 5.00,
+            "image": "guitar-finger-picking.jpg"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340194",
+            "name": "Barre Chords and Power Chords",
+            "description": "Learn barre chords and power chords on the guitar with this course.",
+            "price": 25.00,
+            "category": 11,
+            "rating": 4.50,
+            "image": "guitar-barre-and-power-chords.jpg"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340195",
+            "name": "Introduction to Slurs and Staccato",
+            "description": "Get an introduction to slurs and staccato on the violin with this course.",
+            "price": 25.00,
+            "category": 12,
+            "rating": 4.00,
+            "image": "violin-slurs-and-staccatos.jpg"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340196",
+            "name": "Playing Simple Duets and Ensemble Pieces",
+            "description": "Learn to play simple duets and ensemble pieces on the violin with this course.",
+            "price": 35.00,
+            "category": 12,
+            "rating": 5.00,
+            "image": "simple-violin-pieces.jpg"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340197",
+            "name": "Basic Vibrato Technique",
+            "description": "Learn basic vibrato technique on the violin with this course.",
+            "price": 30.00,
+            "category": 12,
+            "rating": 4.50,
+            "image": "violin-basic-vibrato.jpg"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340198",
+            "name": "Introduction to Second and Third Positions",
+            "description": "Get an introduction to second and third positions on the violin with this course.",
+            "price": 20.00,
+            "category": 12,
+            "rating": 5.00,
+            "image": "violin-second-and-third-positions.jpg"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340199",
+            "name": "Expanding First Position Repertoire",
+            "description": "Expand your first position repertoire on the violin with this course.",
+            "price": 17.00,
+            "category": 12,
+            "rating": 4.50,
+            "image": "violin-first-position.jpg"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340200",
+            "name": "Musical Terms and Symbols",
+            "description": "Learn musical terms and symbols in intermediate music theory with this course.",
+            "price": 17.00,
+            "category": 13,
+            "rating": 4.50,
+            "image": "music-terms-and-symbols.jpg"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340201",
+            "name": "Detailed Dynamics and Articulation Marks",
+            "description": "Learn detailed dynamics and articulation marks in intermediate music theory with this course.",
+            "price": 15.00,
+            "category": 13,
+            "rating": 5.00,
+            "image": "music-dynamics-and-articulation-marks.jpg"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340202",
+            "name": "Sight-Reading Complex Rhythms and Melodies",
+            "description": "Improve your sight-reading skills with complex rhythms and melodies in intermediate music theory with this course.",
+            "price": 25.00,
+            "category": 13,
+            "rating": 5.00,
+            "image": "sight-reading-complex-rhythms-and-melodies.jpg"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340203",
+            "name": "Intervals and Basic Chord Structures",
+            "description": "Learn intervals and basic chord structures in intermediate music theory with this course.",
+            "price": 23.00,
+            "category": 13,
+            "rating": 4.50,
+            "image": "music-intervals-and-basic-chord-structures.jpg"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340204",
+            "name": "Key Signatures and More Complex Scales",
+            "description": "Understand key signatures and more complex scales in intermediate music theory with this course.",
+            "price": 17.00,
+            "category": 13,
+            "rating": 4.00,
+            "image": "music-key-signatures-and-complex-scales.jpg"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340205",
+            "name": "Introduction to Tonguing and Articulation",
+            "description": "Get an introduction to tonguing and articulation in saxophone beginnings with this course.",
+            "price": 17.00,
+            "category": 19,
+            "rating": 4.00,
+            "image": "saxophone-tonguing-and-articulation.jpg"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340206",
+            "name": "Playing Simple Scales and Melodies",
+            "description": "Learn to play simple scales and melodies on the saxophone with this course.",
+            "price": 12.00,
+            "category": 19,
+            "rating": 4.50,
+            "image": "saxophone-simple-scales.jpg"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340207",
+            "name": "Producing a Clear Tone",
+            "description": "Learn techniques for producing a clear tone on the saxophone with this course.",
+            "price": 16.00,
+            "category": 19,
+            "rating": 5.00,
+            "image": "saxophone-clear-tone-production.jpg"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340208",
+            "name": "Basic Embouchure and Breathing Techniques",
+            "description": "Learn basic embouchure and breathing techniques in saxophone beginnings with this course.",
+            "price": 17.00,
+            "category": 19,
+            "rating": 5.00,
+            "image": "saxophone-breathing-technique.jpg"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340209",
+            "name": "Assembling and Holding the Saxophone",
+            "description": "Learn how to assemble and hold the saxophone in saxophone beginnings with this course.",
+            "price": 12.00,
+            "category": 19,
+            "rating": 4.50,
+            "image": "saxophone-holding.jpg"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340210",
+            "name": "Introduction to Left-Hand Accompaniment",
+            "description": "Get an introduction to left-hand accompaniment in piano introduction with this course.",
+            "price": 16.00,
+            "category": 20,
+            "rating": 5.00,
+            "image": "keyboard-left-hand-accompaniment.jpg"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340211",
+            "name": "Playing Simple Melodies",
+            "description": "Learn to play simple melodies on the piano in piano introduction with this course.",
+            "price": 17.00,
+            "category": 20,
+            "rating": 5.00,
+            "image": "playing-simple-piano-melodies.jpg"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340212",
+            "name": "Basic Finger Exercises",
+            "description": "Practice basic finger exercises on the piano in piano introduction with this course.",
+            "price": 15.00,
+            "category": 20,
+            "rating": 4.00,
+            "image": "keyboard-finger-exercises.jpg"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340213",
+            "name": "Keyboard Layout and Note Names",
+            "description": "Learn keyboard layout and note names on the piano in piano introduction with this course.",
+            "price": 15.00,
+            "category": 20,
+            "rating": 4.00,
+            "image": "keyboard-layout.jpg"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340214",
+            "name": "Proper Hand Positioning and Posture",
+            "description": "Learn proper hand positioning and posture on the piano in piano introduction with this course.",
+            "price": 15.00,
+            "category": 20,
+            "rating": 4.50,
+            "image": "keyboard-hand-positioning-and-posture.jpg"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340215",
+            "name": "Finger Strength and Dexterity Exercises",
+            "description": "Improve finger strength and dexterity with exercises in guitar basics with this course.",
+            "price": 25.00,
+            "category": 21,
+            "rating": 4.50,
+            "image": "guitar-finger-exercise.jpg"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340216",
+            "name": "Simple Chord Progressions and Songs",
+            "description": "Learn simple chord progressions and songs in guitar basics with this course.",
+            "price": 15.00,
+            "category": 21,
+            "rating": 4.80,
+            "image": "guitar-chord-and-song.jpg"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340217",
+            "name": "Learning Basic Chords",
+            "description": "Get an introduction to basic guitar chords in guitar basics with this course.",
+            "price": 20.00,
+            "category": 21,
+            "rating": 5.00,
+            "image": "learning-basic-guitar-chords.jpg"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340218",
+            "name": "Introduction to Strumming and Plucking",
+            "description": "Learn the basics of strumming and plucking in guitar basics with this course.",
+            "price": 19.00,
+            "category": 21,
+            "rating": 5.00,
+            "image": "guitar-strumming.jpg"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340219",
+            "name": "Holding the Guitar and Finger Positioning",
+            "description": "Learn how to hold the guitar and proper finger positioning in guitar basics with this course.",
+            "price": 13.00,
+            "category": 21,
+            "rating": 4.00,
+            "image": "holding-guitar-and-finger-positioning.jpg"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340220",
+            "name": "Introduction to First Position Notes",
+            "description": "Get an introduction to first position notes in violin fundamentals with this course.",
+            "price": 13.00,
+            "category": 22,
+            "rating": 4.10,
+            "image": "violin-position-notes-intro.jpg"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340221",
+            "name": "Playing Open Strings and Simple Tunes",
+            "description": "Learn to play open strings and simple tunes on the violin in violin fundamentals with this course.",
+            "price": 17.00,
+            "category": 22,
+            "rating": 4.50,
+            "image": "violin-tune-playing.jpg"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340222",
+            "name": "Simple Finger Placement Exercises",
+            "description": "Practice simple finger placement exercises in violin fundamentals with this course.",
+            "price": 15.00,
+            "category": 22,
+            "rating": 4.20,
+            "image": "violin-finger-placement.jpg"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340223",
+            "name": "Basic Bowing Techniques",
+            "description": "Learn basic bowing techniques in violin fundamentals with this course.",
+            "price": 14.00,
+            "category": 22,
+            "rating": 4.20,
+            "image": "violin-bowing-technique.jpg"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340224",
+            "name": "Holding the Violin and Bow",
+            "description": "Learn how to hold the violin and bow properly in violin fundamentals with this course.",
+            "price": 12.00,
+            "category": 22,
+            "rating": 4.00,
+            "image": "violin-bow-holding.jpg"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340225",
+            "name": "Introduction to Dynamics",
+            "description": "Get an introduction to dynamics in music theory with this course.",
+            "price": 17.00,
+            "category": 23,
+            "rating": 4.30,
+            "image": "music-dynamics-intro.jpg"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340226",
+            "name": "Basic Sight-Reading",
+            "description": "Learn basic sight-reading skills in music theory with this course.",
+            "price": 15.00,
+            "category": 23,
+            "rating": 4.10,
+            "image": "basic-sight-reading.jpg"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340227",
+            "name": "Learning Simple Scales",
+            "description": "Get started with learning simple scales in music theory with this course.",
+            "price": 15.00,
+            "category": 23,
+            "rating": 4.20,
+            "image": "music-scales.jpg"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340228",
+            "name": "Understanding Rhythm",
+            "description": "Gain an understanding of rhythm in music theory with this course.",
+            "price": 15.00,
+            "category": 23,
+            "rating": 4.00,
+            "image": "music-rhythm.jpg"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340229",
+            "name": "Introduction to Music Notation",
+            "description": "Learn the basics of music notation in this introductory course on music theory.",
+            "price": 15.00,
+            "category": 23,
+            "rating": 4.00,
+            "image": "music-notation-intro.jpg"
+        }
+    }    
+]
