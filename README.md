@@ -7,11 +7,11 @@ Muse School is a django-based eCommerce site which runs in the Code Institute mo
 
 Upon visiting Muse School's website, the user will be greeted with the homepage which contains the navigation links and a clickable button to begin the purchase of courses. The user can freely click on any of the navigation links to find what it contains. The website content has been divided into categories that show when the main navigation links are clicked. This website is responsive to all device sizes and works effectively on all types of browsers.
 
-<img src="/static/images/responsivity-test1.PNG" alt="Responsivity on Laptops">
+<img src="/media/responsivity-test1.PNG" alt="Responsivity on Laptops">
 
-<img src="/static/images/responsivity-test2.PNG" alt="Responsivity on Tablets">
+<img src="/media/responsivity-test2.PNG" alt="Responsivity on Tablets">
 
-<img src="/static/images/responsivity-test3.PNG" alt="Responsivity on Handsets">
+<img src="/media/responsivity-test3.PNG" alt="Responsivity on Handsets">
 
 
 ## Features
