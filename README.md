@@ -48,7 +48,7 @@ The Courses Section contains the list of all courses and their titles, prices, r
 
 The skeletal structure of the User Interface that focus on the arrangement of the elements and the overall user flow can be seen in the image below:
 
-<img src="./static/images/wireframe.png" alt="Wireframes">
+<img src="./static/images/wireframe.PNG" alt="Wireframes">
 
 
 ## Search Engine Optimization
