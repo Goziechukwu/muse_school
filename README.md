@@ -1,11 +1,11 @@
 # Muse School
 
-Muse School is a django-based eCommerce site which runs in the Code Institute mock terminal on Heroku. It seeks to aid people in learning music theory and musical instruments, specifically the violin, the saxophone, the piano and the guitar in a progressive step-by-step basis from beginner to mastery. The site will be targeted towards all kinds of people who have interest in learning music, but especially towards passionate learners who have the patience to go through the simplified lesson categories. The lessons in this eCommerce site can be bought by the user in the form of products in an eCommerce website. 
+Muse School is a django-based eCommerce site which runs in the Code Institute mock terminal on Heroku. It seeks to greatly aid people in learning music theory and musical instruments, specifically the violin, the saxophone, the piano and the guitar in a progressive step-by-step basis from beginner to mastery. The site is a B2C (Business to Customer) website and will be targeted towards all kinds of people who have interest in learning music, but especially towards passionate learners who have the patience to go through the simplified lesson categories. The lessons in this eCommerce site can be bought by the user in the form of products in an eCommerce website. 
 
 
 ## Using Muse School
 
-Upon visiting Muse School's website, the user will be greeted with the homepage which contains the navigation links and a clickable button to begin the first page of the collected stories. The user can freely click on any feature or story to discover its content in detail. This blog site is responsive to all device sizes and works effectively on all types of browsers.
+Upon visiting Muse School's website, the user will be greeted with the homepage which contains the navigation links and a clickable button to begin the purchase of courses. The user can freely click on any of the navigation links to find what it contains. The website content has been divided into categories that show when the main navigation links are clicked. This website is responsive to all device sizes and works effectively on all types of browsers.
 
 <img src="./static/images/responsivity-test1.PNG" alt="Responsivity on Laptops">
 
@@ -18,19 +18,18 @@ Upon visiting Muse School's website, the user will be greeted with the homepage 
 
 ### Home Section
 
-The Home Section is the first page the site user is greeted with upon visiting the site for the first time. It is open to all site visitors and registered users. The stories are displayed on the Home page. At the bottom of the home page contains the blow owner's name and links to the blog owner's social media accounts.
+The Home Section is the first page the site user is greeted with upon visiting the site for the first time. It is open to all site visitors and registered users. At the bottom of the home page contains links to the website's social media page.
 
 <img src="./static/images/home-page.PNG" alt="Home Page">
 
-### About Section
 
-The About Section contains information about the blog owner and the motivation for creating the website. The About Section also contains a "Let's collaborate" subsection which is for individuals who have a project in mind, wish to co-author an article, or simply want to brainstorm some ideas.
+### My Account Section
 
-<img src="./static/images/about-section.PNG" alt="About Section">
+The "My Account" section contains the links for Registering and Logging in.
 
 ### Register Section
 
-The Register Section contains the Sign-Up form for site visitors who would love to register on the platform. Registered users can both read posts and comment on a post, but site visitors can only read posts and comments.
+The Register Section can be found in the drop down menu at "My Acount". It contains the Sign-Up form for site visitors who would love to register on the platform. Registered users can buy courses, but site visitors can only read the description of the courses.
 
 <img src="./static/images/register-section.PNG" alt="SignUp Section for Registration">
 
@@ -53,6 +52,8 @@ The skeletal structure of the User Interface that focus on the arrangement of th
 The website was designed using the following hosting services and programming languages:
 
 - Django
+
+- Bootstrap
 
 - Cloudinary (for external image management)
 
@@ -90,14 +91,14 @@ The author has tested the website's user interface and has found out that it loo
 
 ## Testing Forms and Views
 
-The forms and views have been tested on the codeanywhere workspace terminal and the tests, totalling to 10 tests returned successful.
+The forms and views have been tested on the gitpod workspace terminal and the tests, totalling to 10 tests returned successful.
 
 <img src="./static/images/test-run-success.PNG" alt="Testing Results for Forms and Views">
 
 
 ## Accessibility Requirements
 
-MindBodyHealth has been tested using Lighthouse on Google and found to completely meet Accessibility Requirements, in addition to having Best Practices, and more, as indicated in the screenshot below:
+Muse School has been tested using Lighthouse on Google and found to completely meet Accessibility Requirements, in addition to having Best Practices, and more, as indicated in the screenshot below:
 
 <img src="./static/images/lighthouse-report.PNG" alt="Accessibility Requirements Score">
 
@@ -113,7 +114,7 @@ The full-stack project was deployed using the Code Institute's Heroku mock termi
 - From the Settings, I linked the app to the repository
 - Click on the "Deploy" button
 
-The project was deployed to heroku with the following link: [MindBodyHealth Heroku App](https://mind-body-health-1a3a657f9bb9.herokuapp.com/)
+The project was deployed to heroku with the following link: [Muse School Heroku App](https://muse-school-65d38376d319.herokuapp.com//)
 
 
 ## User Stories
@@ -122,9 +123,10 @@ The project was deployed to heroku with the following link: [MindBodyHealth Hero
 
 A site user can:
 
-- view a paginated list of posts to select which post to view.
-- click on a post to read the full text.
-- view comments on individual posts to read the conversation.
+- view a list of all courses or of courses by category and select a course to view more details about it.
+- click on a course to read the full description of the course.
+- view the courses by level, as shown on the navigation link of the homepage ("Harmonic Beginnings, "Melodic Journeys", or "Symphonic Mastery")
+- view courses by ratings, prices or categories.
 - register an account so as to be able to comment on a post.
 - like or unlike a post, so as to appreciate the writer.
 
@@ -133,18 +135,17 @@ A site user can:
 
 A registered user can:
 
-- leave comments on a post in order to be involved in the conversation.
-- modify or delete his or her comment on a post so as to be involved in the conversation.
-- create, read, update and delete posts so as to manage his or her blog content.
-- create draft posts in order to finish writing the content later.
+- perform all the functions a site user can, but in addition can
+- purchase a course.
 
 
 ### Site Administrators
 
 A site admin can:
 
-- approve or disapprove comments in order to filter out objectionable comments.
-- create or update the About page so that it is available on the site.
+- add more courses as products
+- remove courses
+- approve or disapprove card payments for any course.
 
 
 ## Bugs, and How I Fixed Them
@@ -164,8 +165,8 @@ Email: inekwegoziechukwu@gmail.com
 
 - _Blog Post Content_: The contents of the blog posts are real life stories of individuals, extracted from the blog owner's personal testimony and from the book titled "The 5 Resets" written by the Harvard stress expert, Dr. Nerurkar Aditi.
 
-- _User Interface, Experience and Logic Design_: A large part of the UI/UX and website interactivity design ideas were obtained from the mock project- _Codestar blog_ by the Code Institute.
+- _User Interface, Experience and Logic Design_: A large part of the UI/UX and website interactivity design ideas were obtained from the mock project- _Boutique Ado_ by the Code Institute.
 
 - _Deployment Terminal_: The deployment terminal used in the project was created by Code Institute.
 
-- _Images_: All images were downloaded from [Pixabay](pixabay.com) free online source, except the image in the About Section of the blog site, which was downloaded from the mock project- _Codestar blog_ by the Code Institute.
+- _Images_: All images were downloaded from [Pixabay](pixabay.com) and [Unsplash](unsplash.com) free online source, except the image in the About Section of the blog site, which was downloaded from the mock project- _Codestar blog_ by the Code Institute.
