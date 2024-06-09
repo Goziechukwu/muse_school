@@ -76,6 +76,9 @@ A Facebook business page has been created at [Facebook page](https://www.faceboo
 <img src="./static/images/facebook-page2.PNG" alt="Facebook Content 2">
 <img src="./static/images/facebook-page3.PNG" alt="Facebook Content 3">
 
+A newsletter signup form by MailChimp is used to capture leads and build an email list for marketing purposes and is a valuable tool for staying in touch with muse school's society and promoting it's products(courses).
+
+<img src="./static/images/mailchimp-signup-form.PNG" alt="SignUp Form by MailChimp">
 
 
 ## Technologies Used
