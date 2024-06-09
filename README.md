@@ -76,6 +76,8 @@ A Facebook business page has been created at [Facebook page](https://www.faceboo
 <img src="./static/images/facebook-page2.PNG" alt="Facebook Content 2">
 <img src="./static/images/facebook-page3.PNG" alt="Facebook Content 3">
 
+
+
 ## Technologies Used
 
 The website was designed using the following hosting services and programming languages:
@@ -98,9 +100,11 @@ The website was designed using the following hosting services and programming la
 
 - [Google Fonts](https://fonts.google.com/) was used to obtain the two fonts, Lato and Sans-Serif used in the website.
 
-The Codeanywhere workspace was used to write the code. 
+The Gitpod workspace was used to write the code with the Code Institute's Template. 
 
 • All the codes, README and the commits were pushed to GitHub repository
+
+• All git commits that were pushed were automatically deployed to Heroku
 
 • The fonts used were obtained from the Google Fonts library in google
 
@@ -125,10 +129,9 @@ The full-stack project was deployed using the Code Institute's Heroku mock termi
 
 - Clone or fork the repository
 - Click the "Create New App" button in the Heroku platform
-- Add the keys: CLOUDINARY_URL, DATABASE_URL, and their values from their corresponding files.
-- I also added a SECRET_KEY and created a private value for it
+- Add the keys: AWS_ACCESS_KEY_ID, AWS_SECRET_KEY_ID,DATABASE_URL, EMAIL_HOST_PASS, EMAIL_HOST_USER, SECRET_KEY, STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET, USE_AWS and their values from their corresponding files.
 - From the Settings, I linked the app to the repository
-- Click on the "Deploy" button
+- I set up "Automatic Deployment"
 
 The project was deployed to heroku with the following link: [Muse School Heroku App](https://muse-school-65d38376d319.herokuapp.com//)
 
@@ -164,11 +167,9 @@ A site admin can:
 - approve or disapprove card payments for any course.
 
 
-## Bugs, and How I Fixed Them
+## Future Developments
 
-I discovered my "Edit" button for posted comments was not responding to the click event, in order to fix this, I checked the button id on the post html and the button id on the comment section JavaScript and found that I had used the wrong button id on the post html. I then changed the button id for the "Edit" button on the post html to correspond with the button id for the edit-event listening function in the comment section javascript. This solved the issue.
-
-Secondly I discovered that when comments have not been approved yet by the admin, they were visible in blur form to not only the maker of the comment, but to other registered users. To fix this, I placed the comment-form variable definition above the post-request condition in the blog views python file. This action solved the issue.
+The arrangement of some of the images in the deployed project, though okay, but will be best to have some adjustments to align the longer images with the shorter ones.
 
 
 ## Contact information
@@ -179,10 +180,8 @@ Email: inekwegoziechukwu@gmail.com
 
 ## Acknowledgements and References
 
-- _Blog Post Content_: The contents of the blog posts are real life stories of individuals, extracted from the blog owner's personal testimony and from the book titled "The 5 Resets" written by the Harvard stress expert, Dr. Nerurkar Aditi.
-
 - _User Interface, Experience and Logic Design_: A large part of the UI/UX and website interactivity design ideas were obtained from the mock project- _Boutique Ado_ by the Code Institute.
 
 - _Deployment Terminal_: The deployment terminal used in the project was created by Code Institute.
 
-- _Images_: All images were downloaded from [Pixabay](pixabay.com) and [Unsplash](unsplash.com) free online source, except the image in the About Section of the blog site, which was downloaded from the mock project- _Codestar blog_ by the Code Institute.
+- _Images_: All images were downloaded from [Pixabay](pixabay.com) and [Unsplash](unsplash.com) free online source.
