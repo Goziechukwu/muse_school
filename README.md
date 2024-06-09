@@ -29,7 +29,7 @@ The "My Account" section contains the links for Registering and Logging in.
 
 ### Register Section
 
-The Register Section can be found in the drop down menu at "My Acount". It contains the Sign-Up form for site visitors who would love to register on the platform. Registered users can buy courses, but site visitors can only read the description of the courses.
+The Register Section can be found in the drop down menu at "My Acount". It contains the Sign-Up form for site visitors who would love to register on the platform.
 
 <img src="./static/images/register-section.PNG" alt="SignUp Section for Registration">
 
@@ -53,7 +53,7 @@ The skeletal structure of the User Interface that focus on the arrangement of th
 
 ## Search Engine Optimization
 
-A robots.txt file have been added to tell search engine crawlers which pages or files on the website should be crawled and indexed, thereby controlling the access to the website for search engines.
+A robots.txt file has been added to tell search engine crawlers which pages or files on the website should be crawled and indexed, thereby controlling the access to the website for search engines.
 
 Similarly, a sitemap.xml file which lists all the pages on the website has been created for the purpose of helping search engines discover and crawl them more efficiently.
 
@@ -76,7 +76,7 @@ A Facebook business page has been created at [Facebook page](https://www.faceboo
 <img src="./static/images/facebook-page2.PNG" alt="Facebook Content 2">
 <img src="./static/images/facebook-page3.PNG" alt="Facebook Content 3">
 
-A newsletter signup form by MailChimp is used to capture leads and build an email list for marketing purposes and is a valuable tool for staying in touch with muse school's society and promoting it's products(courses).
+A newsletter signup form by MailChimp is used to capture leads and build an email list for marketing purposes and is a valuable tool for staying in touch with muse school's society and promoting it's products(courses). It can be found below on the home page, beside the social media link.
 
 <img src="./static/images/mailchimp-signup-form.PNG" alt="SignUp Form by MailChimp">
 
@@ -87,7 +87,7 @@ Muse School's website is designed to meet the requirements of an e-commerce busi
 
 Muse School's core business intents focus on generation of revenue, aquisition and retention of customers, and brand building. Supported by effective marketing strategies, Muse School has implemented an Online Store Front with Products Listings, Searching and Filtering.
 
-Secondly it features a smooth Checkout process with a Secure Payment Gateway using Stripe. After transaction, the User receives Order Confirmation.
+Furthermore, it features a smooth Checkout process with a Secure Payment Gateway using Stripe. After transaction, the User receives Order Confirmation.
 
 
 ## User Stories
@@ -128,8 +128,6 @@ The website was designed using the following hosting services and programming la
 
 - Bootstrap
 
-- Cloudinary (for external image management)
-
 - ElephantSQL for the PostgreSQL
 
 - Python
@@ -140,7 +138,6 @@ The website was designed using the following hosting services and programming la
 
 - CSS3
 
-- [Google Fonts](https://fonts.google.com/) was used to obtain the two fonts, Lato and Sans-Serif used in the website.
 
 The Gitpod workspace was used to write the code with the Code Institute's Template. 
 
@@ -153,7 +150,7 @@ The Gitpod workspace was used to write the code with the Code Institute's Templa
 
 ## Testing Forms and Views
 
-The forms and views have been tested on the gitpod workspace terminal and the tests, totalling to 10 tests returned successful.
+The forms and views have been tested successfully on the gitpod workspace terminal and the tests and no issues(problems) were identified.
 
 <img src="./static/images/test-run-success.PNG" alt="Testing Results for Forms and Views">
 
@@ -180,7 +177,7 @@ The project was deployed to heroku with the following link: [Muse School Heroku 
 
 ## Future Developments
 
-The arrangement of some of the images in the deployed project, though okay, but will be best to have some adjustments to align the longer images with the shorter ones.
+The arrangement of some of the images in the deployed project, though okay, but they can be better adjustmented to align the longer images with the shorter ones.
 
 
 ## Contact information
