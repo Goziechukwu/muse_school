@@ -12,7 +12,6 @@ from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
 
 import stripe
-import json
 
 
 @require_POST
@@ -36,6 +35,14 @@ def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
+    # Define profile variable
+    profile = None
+    if request.user.is_authenticated:
+        try:
+            profile = UserProfile.objects.get(user=request.user)
+        except UserProfile.DoesNotExist:
+            pass
+
     if request.method == 'POST':
         product_id = request.POST.get('product_id')
         product = get_object_or_404(Product, id=product_id)
@@ -58,7 +65,8 @@ def checkout(request):
             pid = request.POST.get('client_secret').split('_secret')[0]
             order.stripe_pid = pid
             order.product = product  # Link the product to the order
-            order.user_profile = profile
+            if profile:  # Only assign if profile is defined
+                order.user_profile = profile
             order.save()
 
             # Save the info to the user's profile if needed

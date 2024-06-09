@@ -51,6 +51,31 @@ The skeletal structure of the User Interface that focus on the arrangement of th
 <img src="./static/images/wireframe.png" alt="Wireframes">
 
 
+## Search Engine Optimization
+
+A robots.txt file have been added to tell search engine crawlers which pages or files on the website should be crawled and indexed, thereby controlling the access to the website for search engines.
+
+Similarly, a sitemap.xml file which lists all the pages on the website has been created for the purpose of helping search engines discover and crawl them more efficiently.
+
+Appropriate Keywords have been selected relating to what people care about that are linked to Muse School's commercial functions. Some keywords like:
+- Music School
+- High school musical
+- Muse School curriculum
+- Muse School music education
+- Music school programs
+- Music learning for kids
+- Children's music education
+
+These keywords are intended to aid the visibility of the website in a Google Search.
+
+## Marketing Techniques
+
+A Facebook business page has been created at [Facebook page](https://www.facebook.com/profile.php?id=61560667980178) to showcase Muse School's brands, engage with it's audience, and run targeted advertising campaigns.
+
+<img src="./static/images/facebook-page1.PNG" alt="Facebook Content 1">
+<img src="./static/images/facebook-page2.PNG" alt="Facebook Content 2">
+<img src="./static/images/facebook-page3.PNG" alt="Facebook Content 3">
+
 ## Technologies Used
 
 The website was designed using the following hosting services and programming languages:
@@ -78,19 +103,6 @@ The Codeanywhere workspace was used to write the code.
 • All the codes, README and the commits were pushed to GitHub repository
 
 • The fonts used were obtained from the Google Fonts library in google
-
-
-## Validation Testing
-
-The author has tested the website's user interface and has found out that it looks the same on the browsers- Google Chrome, Mozilla Firefox and Microsoft.
-
-- The HTML codes have been tested using validation by url in the w3C HTML Validator and no errors were returned.
-
-<img src="./static/images/html-validation.PNG" alt="HTML Validation Testing">
-
-- The Python code for the blog views have also been tested and returned no errors.
-
-<img src="./static/images/python-code-test-results.PNG" alt="Python Validation Testing">
 
 
 ## Testing Forms and Views
