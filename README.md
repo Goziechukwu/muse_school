@@ -81,6 +81,45 @@ A newsletter signup form by MailChimp is used to capture leads and build an emai
 <img src="./static/images/mailchimp-signup-form.PNG" alt="SignUp Form by MailChimp">
 
 
+## Muse School as an E-Commerce Business Model
+
+Muse School's website is designed to meet the requirements of an e-commerce business model by providing a user-friendly online storefront, secure payment processing, and robust customer engagement strategies.
+
+Muse School's core business intents focus on generation of revenue, aquisition and retention of customers, and brand building. Supported by effective marketing strategies, Muse School has implemented an Online Store Front with Products Listings, Searching and Filtering.
+
+Secondly it features a smooth Checkout process with a Secure Payment Gateway using Stripe. After transaction, the User receives Order Confirmation.
+
+
+## User Stories
+
+### Site Users
+
+A site user can:
+
+- create an Account to manage an order
+- save payment information
+- view a list of all courses or of courses by category and select a course to view more details about it.
+- click on a course to read the full description of the course.
+- view the courses by level, as shown on the navigation link of the homepage ("Harmonic Beginnings, "Melodic Journeys", or "Symphonic Mastery")
+- view courses by ratings, prices or categories.
+
+
+### Registered Users
+
+Registered users can perform all the functions a site user can, but in addition can:
+
+- receive personalized course(product) recommendation based on their browsing history
+
+
+### Site Administrators
+
+A site admin can:
+
+- add more courses as products
+- remove courses
+- approve or disapprove card payments for any course.
+
+
 ## Technologies Used
 
 The website was designed using the following hosting services and programming languages:
@@ -137,37 +176,6 @@ The full-stack project was deployed using the Code Institute's Heroku mock termi
 - I set up "Automatic Deployment"
 
 The project was deployed to heroku with the following link: [Muse School Heroku App](https://muse-school-65d38376d319.herokuapp.com//)
-
-
-## User Stories
-
-### Site Users
-
-A site user can:
-
-- view a list of all courses or of courses by category and select a course to view more details about it.
-- click on a course to read the full description of the course.
-- view the courses by level, as shown on the navigation link of the homepage ("Harmonic Beginnings, "Melodic Journeys", or "Symphonic Mastery")
-- view courses by ratings, prices or categories.
-- register an account so as to be able to comment on a post.
-- like or unlike a post, so as to appreciate the writer.
-
-
-### Registered Users
-
-A registered user can:
-
-- perform all the functions a site user can, but in addition can
-- purchase a course.
-
-
-### Site Administrators
-
-A site admin can:
-
-- add more courses as products
-- remove courses
-- approve or disapprove card payments for any course.
 
 
 ## Future Developments
