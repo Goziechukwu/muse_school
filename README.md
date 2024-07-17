@@ -184,7 +184,7 @@ The full-stack project was deployed using the Code Institute's Heroku mock termi
 - From the Settings, I linked the app to the repository
 - I set up "Automatic Deployment"
 
-The project was deployed to heroku with the following link: [Muse School Heroku App](https://muse-school-65d38376d319.herokuapp.com//)
+The project was deployed to heroku with the following link: [Muse School Heroku App](https://muse-school-65d38376d319.herokuapp.com/)
 
 
 ## Future Developments
