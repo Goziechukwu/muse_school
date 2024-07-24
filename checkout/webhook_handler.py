@@ -48,6 +48,7 @@ class StripeWH_Handler:
         """
         intent = event.data.object
         pid = intent.id
+        
         # Assuming you add product_id and quantity in the metadata
         product_id = intent.metadata.product_id
         quantity = int(intent.metadata.quantity)
