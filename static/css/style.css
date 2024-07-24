@@ -1,0 +1,38 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.form-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-box h1, .form-box h2 {
+    text-align: center;
+}
+
+.form-box button {
+    width: 100%;
+}
+
+.form-box p {
+    text-align: center;
+}
+
+.form-box a {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
