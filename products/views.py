@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -68,6 +69,7 @@ def product_detail(request, product_id):
 
     context = {
         'product': product,
+        'MEDIA_URL': settings.MEDIA_URL,
     }
 
     return render(request, 'products/product_detail.html', context)
