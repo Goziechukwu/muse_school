@@ -26,11 +26,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'gt13zm4t+e+%w1)%2@m=863gk!!%^q0464_kn8k9@ao$igwvwo')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 # DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['muse-school-65d38376d319.herokuapp.com', 'localhost', '127.0.0.1:8000/', '127.0.0.1']
