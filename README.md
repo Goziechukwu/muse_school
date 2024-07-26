@@ -43,7 +43,7 @@ The Login Section contains the login page for registered users. Site visitors wh
 
 The Courses Section contains the list of all courses and their titles, prices, ratings and images. When a course is bought, a confirmation email is sent to the buyer and the buyer will be linked to the teacher of that purchased course. Because the courses when bought are educational one-on-one tutorials both in video and when possible in presence, the courses are therefore only bought on a single basis, one after the other, so as to distinguish it from a retail store which usually has a shopping bag that could contain many different items.
 
-<img src="./static/images/courses-section.PNG"
+<img src="./static/images/courses-section.PNG" alt="Courses Section">
 
 
 ## Wireframes
