@@ -189,6 +189,13 @@ The deployed website built successfully on heroku
 <img src="./static/images/web-test5.PNG" alt="Testing Results for Deployed Site 5">
 
 
+## CSS Validation Test
+
+The CSS was tested by url with the W3C CSS Validation Service and it returned no errors.
+
+<img src="./static/images/css-validation-report.PNG" alt="CSS Validation Test">
+
+
 ## Accessibility Requirements
 
 Muse School has been tested using Lighthouse on Google and found to completely meet Accessibility Requirements, in addition to having Best Practices, and more, as indicated in the screenshot below:

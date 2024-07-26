@@ -31,7 +31,10 @@ def profile(request):
     context = {
         'form': form,
         'orders': orders,
-        'on_profile_page': True
+        'on_profile_page': True,
+        'meta_description': ('Manage your profile and account settings at '
+                             'Muse School.'),
+        'title': 'Profile'
     }
 
     return render(request, template, context)

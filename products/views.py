@@ -59,6 +59,9 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'meta_description': ('Explore a wide range of educational courses at '
+                             'Muse School.'),
+        'title': 'Courses'
     }
 
     return render(request, 'products/products.html', context)

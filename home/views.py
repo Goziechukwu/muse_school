@@ -6,4 +6,10 @@ from django.shortcuts import render
 def index(request):
     """A view to return the index page"""
 
-    return render(request, 'home/index.html')
+    context = {
+        'meta_description': ('Welcome to Muse School - Innovative Learning '
+                             'Solutions for all ages.'),
+        'title': 'Home'
+    }
+
+    return render(request, 'home/index.html', context)
