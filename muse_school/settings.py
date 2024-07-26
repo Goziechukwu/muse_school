@@ -33,6 +33,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'muse-school-65d38376d319.herokuapp.com',
+    '8000-goziechukwu-museschool-up4qpb7s182.ws-eu115.gitpod.io',
     'localhost',
     '127.0.0.1:8000/',
     '127.0.0.1'

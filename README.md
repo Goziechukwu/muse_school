@@ -46,7 +46,27 @@ The Courses Section contains the list of all courses and their titles, prices, r
 
 ## Wireframes
 
-The skeletal structure of the User Interface that focus on the arrangement of the elements and the overall user flow can be seen in the image below:
+The skeletal structure of the User Interface that focus on the arrangement of the elements and the overall user flow can be seen in the images below which represent the various main pages of the website.
+
+### Home Page
+
+![Home Page Wireframe]()
+
+### Product Listing Page
+
+![Product Listing Page Wireframe](docs/wireframes/product-listing.png)
+
+### Product Detail Page
+
+![Product Detail Page Wireframe](docs/wireframes/product-detail.png)
+
+### Checkout Page
+
+![Checkout Page Wireframe](docs/wireframes/checkout.png)
+
+### User Profile Page
+
+![User Profile Page Wireframe](docs/wireframes/user-profile.png)
 
 <img src="./static/images/wireframe.PNG" alt="Wireframes">
 
