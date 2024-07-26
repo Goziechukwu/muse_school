@@ -7,11 +7,11 @@ Muse School is a django-based eCommerce site which runs in the Code Institute mo
 
 Upon visiting Muse School's website, the user will be greeted with the homepage which contains the navigation links and a clickable button to begin the purchase of courses. The user can freely click on any of the navigation links to find what it contains. The website content has been divided into categories that show when the main navigation links are clicked. This website is responsive to all device sizes and works effectively on all types of browsers.
 
-<img src="./static/images/responsivity-test1.PNG" alt="Responsivity on Laptops">
+<img src="./static/images/responsivity-test2.PNG" alt="Responsivity on Laptops">
 
-<img src="./static/images/responsivity-test2.PNG" alt="Responsivity on Tablets">
+<img src="./static/images/responsivity-test3.PNG" alt="Responsivity on Tablets">
 
-<img src="./static/images/responsivity-test3.PNG" alt="Responsivity on Handsets">
+<img src="./static/images/responsivity-test4.PNG" alt="Responsivity on Handsets">
 
 
 ## Features
@@ -43,30 +43,32 @@ The Login Section contains the login page for registered users. Site visitors wh
 
 The Courses Section contains the list of all courses and their titles, prices, ratings and images. When a course is bought, a confirmation email is sent to the buyer and the buyer will be linked to the teacher of that purchased course. Because the courses when bought are educational one-on-one tutorials both in video and when possible in presence, the courses are therefore only bought on a single basis, one after the other, so as to distinguish it from a retail store which usually has a shopping bag that could contain many different items.
 
+<img src="./static/images/courses-section.PNG"
+
 
 ## Wireframes
 
-The skeletal structure of the User Interface that focus on the arrangement of the elements and the overall user flow can be seen in the images below which represent the various main pages of the website.
+Skeletal structures of the User Interface that focus on the arrangement of the elements and the overall user flow can be seen in the images below which represent the various main pages of the website.
 
 ### Home Page
 
-![Home Page Wireframe]()
+![Home Page Wireframe](./static/images/homepage-wireframe.PNG)
 
-### Product Listing Page
+### Product(Course) Listing Page
 
-![Product Listing Page Wireframe](docs/wireframes/product-listing.png)
+![Product Listing Page Wireframe](./static/images/product-listings-wireframe.PNG)
 
 ### Product Detail Page
 
-![Product Detail Page Wireframe](docs/wireframes/product-detail.png)
+![Product Detail Page Wireframe](./static/images/product-detail-wireframe.PNG)
 
 ### Checkout Page
 
-![Checkout Page Wireframe](docs/wireframes/checkout.png)
+![Checkout Page Wireframe](./static/images/checkout-wireframe.PNG)
 
 ### User Profile Page
 
-![User Profile Page Wireframe](docs/wireframes/user-profile.png)
+![User Profile Page Wireframe](./static/images/user-profile-wireframe.PNG)
 
 <img src="./static/images/wireframe.PNG" alt="Wireframes">
 
