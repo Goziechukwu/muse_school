@@ -64,7 +64,13 @@
                         {% if reviews %}
                             {% for review in reviews %}
                                 <div class="review">
-                                    <strong>{{ review.user.username if review.user else "Anonymous" }}</strong>
+                                    <strong>
+                                        {% if review.user %}
+                                            {{ review.user.username }}
+                                        {% else %}
+                                            Anonymous
+                                        {% endif %}
+                                    </strong>
                                     <span>{{ review.rating }} stars</span>
                                     <p>{{ review.comment }}</p>
                                     <small>Reviewed on {{ review.created_at }}</small>
