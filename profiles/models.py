@@ -31,6 +31,21 @@ class UserProfile(models.Model):
         return self.user.username
 
 
+class Instructor(models.Model):
+    """
+    A user profile model for managing information about Instructors.
+    """
+    name = models.CharField(max_length=200)
+    bio = models.TextField()
+    photo = models.ImageField(upload_to='instructors/', blank=True, null=True)
+    specialization = models.CharField(max_length=100)
+    availability = models.CharField(max_length=100)
+    contact_info = models.CharField(max_length=200)
+
+    def __str__(self):
+        return self.name
+
+
 @receiver(post_save, sender=User)
 def create_or_update_user_profile(sender, instance, created, **kwargs):
     """

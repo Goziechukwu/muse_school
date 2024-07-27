@@ -6,6 +6,8 @@ from django.contrib.auth.decorators import login_required
 from .models import UserProfile
 from .forms import UserProfileForm
 
+from .models import Instructor
+
 from checkout.models import Order
 
 
@@ -38,6 +40,14 @@ def profile(request):
     }
 
     return render(request, template, context)
+
+
+def instructors_list(request):
+    """
+    Display the list of Instructors
+    """
+    instructors = Instructor.objects.all()
+    return render(request, 'profiles/instructors_list.html', {'instructors': instructors})
 
 
 def order_history(request, order_number):

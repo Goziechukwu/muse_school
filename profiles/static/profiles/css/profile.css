@@ -1,5 +1,5 @@
 .order-history {
-    max-height: 416px; /* height of profile form + submit button */
+    max-height: 416px;
     overflow-y: auto;
 }
 
@@ -18,4 +18,39 @@
 
 #id_default_country option:first-child {
     color: #aab7c4;
+}
+
+.instructor-photo {
+    flex: 0 0 auto;
+    width: 33.333%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.instructor-photo > img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.instructor-info {
+    flex: 0 0 auto;
+    width: 66.667%;
+    padding-left: 20px;
+}
+
+.instructor-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1.5rem;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+    text-align: left;
+    align-items: center;
+}
+
+.spacer {
+    margin-top: 20px;
 }
