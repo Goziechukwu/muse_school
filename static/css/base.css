@@ -304,3 +304,24 @@ input[name='q']::placeholder {
         padding: .25rem .5rem !important;
     }
 }
+
+/* Footer Styles */
+.contact-footer {
+    background-color: #333;
+    color: #fff;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-footer a {
+    color: #4c4eaf;
+    text-decoration: none;
+}
+
+.contact-footer a:hover {
+    text-decoration: underline;
+}

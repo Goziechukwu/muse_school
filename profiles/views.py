@@ -1,10 +1,11 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
 
 from django.contrib.auth.decorators import login_required
 
 from .models import UserProfile
 from .forms import UserProfileForm
+from .forms import ContactRequestForm
 
 from .models import Instructor
 
@@ -48,6 +49,18 @@ def instructors_list(request):
     """
     instructors = Instructor.objects.all()
     return render(request, 'profiles/instructors_list.html', {'instructors': instructors})
+
+
+def contact_view(request):
+    if request.method == 'POST':
+        form = ContactRequestForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Your message has been sent successfully!')
+            return redirect('contact')
+    else:
+        form = ContactRequestForm()
+    return render(request, 'profiles/contact.html', {'form': form})
 
 
 def order_history(request, order_number):

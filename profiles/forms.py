@@ -1,5 +1,6 @@
 from django import forms
 from .models import UserProfile
+from .models import ContactRequest
 
 
 class UserProfileForm(forms.ModelForm):
@@ -34,3 +35,9 @@ class UserProfileForm(forms.ModelForm):
                                                         'rounded-0 '
                                                         'profile-form-input')
             self.fields[field].label = False
+
+
+class ContactRequestForm(forms.ModelForm):
+    class Meta:
+        model = ContactRequest
+        fields = ['name', 'email', 'message']
