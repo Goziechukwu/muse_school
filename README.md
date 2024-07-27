@@ -123,13 +123,15 @@ A site user can:
 - view a list of all courses or of courses by category and select a course to view more details about it.
 - click on a course to read the full description of the course.
 - view the courses by level, as shown on the navigation link of the homepage ("Harmonic Beginnings, "Melodic Journeys", or "Symphonic Mastery")
-- view courses by ratings, prices or categories.
+- view courses by ratings, prices or categories
+- make a contact request by filling in a contact form.
 
 
 ### Registered Users
 
 Registered users can perform all the functions a site user can, but in addition can:
 
+- leave reviews on products(courses)
 - receive personalized course(product) recommendation based on their browsing history
 
 
@@ -140,6 +142,7 @@ A site admin can:
 - add more courses as products
 - remove courses
 - approve or disapprove card payments for any course.
+- create and view a list of instructors and their biographies
 
 
 ## Technologies Used
@@ -178,29 +181,40 @@ The deployed website built successfully on heroku
 
 <img src="./static/images/heroku-build-test.PNG" alt="Heroku Build Test">
 
-<img src="./static/images/web-test1.PNG" alt="Testing Results for Deployed Site 1">
+
+### Inspecting Sources
+
+The Sources Tab which debugs JavaScript, sets breakpoints, and inspects code was inspected as shown in the diagram below.
 
 <img src="./static/images/web-test2.PNG" alt="Testing Results for Deployed Site 2">
 
 <img src="./static/images/web-test3.PNG" alt="Testing Results for Deployed Site 3">
 
+### Inspecting Network
+
+The Network Tab which monitors network requests, analyzes load times, and checks request details was inspected as shown in the diagram below.
+
 <img src="./static/images/web-test4.PNG" alt="Testing Results for Deployed Site 4">
+
+### Inspecting Memory
+
+The Memory Tab which analyzes memory usage, detects leaks, and monitors garbage collection was inspected as shown in the diagram below.
 
 <img src="./static/images/web-test5.PNG" alt="Testing Results for Deployed Site 5">
 
+### Inspecting Performance (Accessibility Requirements)
 
-## CSS Validation Test
-
-The CSS was tested by url with the W3C CSS Validation Service and it returned no errors.
-
-<img src="./static/images/css-validation-report.PNG" alt="CSS Validation Test">
-
-
-## Accessibility Requirements
+The Performance Tab which records and analyzes performance, views timelines, and identifies bottlenecks was inspected.
 
 Muse School has been tested using Lighthouse on Google and found to completely meet Accessibility Requirements, in addition to having Best Practices, and more, as indicated in the screenshot below:
 
 <img src="./static/images/lighthouse-report.PNG" alt="Accessibility Requirements Score">
+
+### CSS Validation Test
+
+The CSS was tested by url with the W3C CSS Validation Service and it returned no errors.
+
+<img src="./static/images/css-validation-report.PNG" alt="CSS Validation Test">
 
 
 ## Deployment to Heroku
