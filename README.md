@@ -70,7 +70,7 @@ Skeletal structures of the User Interface that focus on the arrangement of the e
 
 ![User Profile Page Wireframe](./static/images/user-profile-wireframe.PNG)
 
-<img src="./static/images/wireframe.PNG" alt="Wireframes">
+
 
 
 ## Search Engine Optimization
@@ -218,7 +218,7 @@ The project was deployed to heroku with the following link: [Muse School Heroku 
 
 ## Future Developments
 
-The arrangement of some of the images in the deployed project, though okay, but they can be better adjustmented to align the longer images with the shorter ones.
+The arrangement of some of the images in the deployed project, though okay, but they can be better adjusted to align the longer images with the shorter ones.
 
 
 ## Contact information
