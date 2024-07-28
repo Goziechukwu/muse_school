@@ -134,6 +134,7 @@ A site user can:
 Registered users can perform all the functions a site user can, but in addition can:
 
 - leave reviews on products(courses)
+- edit and update their reviews on products(courses)
 - receive personalized course(product) recommendation based on their browsing history
 
 
