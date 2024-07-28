@@ -124,7 +124,9 @@ A site user can:
 - click on a course to read the full description of the course.
 - view the courses by level, as shown on the navigation link of the homepage ("Harmonic Beginnings, "Melodic Journeys", or "Symphonic Mastery")
 - view courses by ratings, prices or categories
-- make a contact request by filling in a contact form.
+- view the reviews made on products(courses)
+- make a contact request by filling out a contact form.
+- view a list of instructors and their biographies
 
 
 ### Registered Users
@@ -142,7 +144,7 @@ A site admin can:
 - add more courses as products
 - remove courses
 - approve or disapprove card payments for any course.
-- create and view a list of instructors and their biographies
+- create a list of instructors and their biographies
 
 
 ## Technologies Used
@@ -233,6 +235,8 @@ The project was deployed to heroku with the following link: [Muse School Heroku 
 ## Future Developments
 
 The arrangement of some of the images in the deployed project, though okay, but they can be better adjusted to align the longer images with the shorter ones.
+
+The rating of courses can be improved to take care of decimals and not just whole number ratings.
 
 
 ## Contact information

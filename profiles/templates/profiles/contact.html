@@ -35,8 +35,21 @@
 
         <form method="post">
             {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit">Send</button>
+            <div>
+                {{ form.name.label_tag }}
+                {{ form.name }}
+            </div>
+            <div>
+                {{ form.email.label_tag }}
+                {{ form.email }}
+            </div>
+            <div>
+                <div>
+                    {{ form.message.label_tag }}
+                </div>
+                {{ form.message }}
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
         </form>
     </div>
 

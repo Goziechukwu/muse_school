@@ -58,6 +58,10 @@ body {
     color: #000 !important;
 }
 
+.text-custom-color {
+    color: #0000FF;
+}
+
 .border-black {
     border: 1px solid black !important;
 }

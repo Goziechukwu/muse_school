@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.db.models import UniqueConstraint
 
 
 class Category(models.Model):
@@ -76,3 +77,11 @@ class Review(models.Model):
     def __str__(self):
         return (f'Review for {self.product.name} by '
                 f'{self.user.username if self.user else "Anonymous"}')
+    
+    class Meta:
+        constraints = [
+            UniqueConstraint(fields=['product', 'user'], name='unique_review')
+        ]
+
+    def __str__(self):
+        return f'Review for {self.product.name} by {self.user.username if self.user else "Anonymous"}'
