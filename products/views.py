@@ -4,6 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.db import IntegrityError
 
 
 from .models import Product, Category, Review
@@ -85,8 +86,11 @@ def product_detail(request, product_id):
             review.product = product
             if request.user.is_authenticated:
                 review.user = request.user
-            review.save()
-            messages.success(request, 'Your review has been submitted!')
+            try:
+                review.save()
+                messages.success(request, 'Your review has been submitted!')
+            except IntegrityError:
+                messages.error(request, 'You have already reviewed this product.')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
             messages.error(request, 'Failed to submit review. Please ensure the form is valid.')

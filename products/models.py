@@ -74,14 +74,13 @@ class Review(models.Model):
     comment = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
 
-    def __str__(self):
-        return (f'Review for {self.product.name} by '
-                f'{self.user.username if self.user else "Anonymous"}')
-    
+
+
     class Meta:
         constraints = [
             UniqueConstraint(fields=['product', 'user'], name='unique_review')
         ]
 
     def __str__(self):
-        return f'Review for {self.product.name} by {self.user.username if self.user else "Anonymous"}'
+        return (f'Review for {self.product.name} by '
+                f'{self.user.username if self.user else "Anonymous"}')
