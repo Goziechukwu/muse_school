@@ -4,7 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
-from django.db import IntegrityError
+
 
 
 from .models import Product, Category, Review
@@ -71,35 +71,41 @@ def all_products(request):
 
 def product_detail(request, product_id):
     """
-    A view to show individual product details
-    along with reviews
+    A view to show individual product details along with reviews
     """
 
     product = get_object_or_404(Product, pk=product_id)
     reviews = product.reviews.all()
-    review_form = ReviewForm()
+    user_review = None
+
+    if request.user.is_authenticated:
+        user_review = reviews.filter(user=request.user).first()
 
     if request.method == 'POST':
-        review_form = ReviewForm(request.POST)
+        if user_review:
+            review_form = ReviewForm(request.POST, instance=user_review)
+        else:
+            review_form = ReviewForm(request.POST)
+        
         if review_form.is_valid():
             review = review_form.save(commit=False)
             review.product = product
             if request.user.is_authenticated:
                 review.user = request.user
-            try:
-                review.save()
-                messages.success(request, 'Your review has been submitted!')
-            except IntegrityError:
-                messages.error(request, 'You have already reviewed this product.')
+            review.save()
+            messages.success(request, 'Your review has been submitted!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
             messages.error(request, 'Failed to submit review. Please ensure the form is valid.')
+    else:
+        review_form = ReviewForm(instance=user_review)
 
     context = {
         'product': product,
         'reviews': reviews,
         'review_form': review_form,
         'MEDIA_URL': settings.MEDIA_URL,
+        'user_review': user_review,
     }
 
     return render(request, 'products/product_detail.html', context)

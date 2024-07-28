@@ -81,11 +81,13 @@
                         {% endif %}
 
                         {% if user.is_authenticated %}
-                            <h2>Leave a Review</h2>
+                            <h2>{% if user_review %}Edit Your Review{% else %}Leave a Review{% endif %}</h2>
                             <form method="post">
                                 {% csrf_token %}
                                 {{ review_form.as_p }}
-                                <button type="submit" class="btn btn-primary">Submit Review</button>
+                                <button type="submit" class="btn btn-primary">
+                                    {% if user_review %}Update Review{% else %}Submit Review{% endif %}
+                                </button>
                             </form>
                         {% else %}
                             <p>You need to be logged in to leave a review.</p>
