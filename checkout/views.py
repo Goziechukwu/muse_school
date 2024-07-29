@@ -65,6 +65,8 @@ def checkout(request):
             pid = request.POST.get('client_secret').split('_secret')[0]
             order.stripe_pid = pid
             order.product = product  # Link the product to the order
+            order.order_total = product.price * quantity
+            order.grand_total = product.price * quantity
             if profile:  # Only assign if profile is defined
                 order.user_profile = profile
             order.save()
