@@ -220,6 +220,17 @@ The CSS was tested by url with the W3C CSS Validation Service and it returned no
 <img src="./static/images/css-validation-report.PNG" alt="CSS Validation Test">
 
 
+## Bugs And How I Fixed Them
+
+### Solving the Problem of a User Submitting Multiple Reviews on a Product
+
+After creating the Review Model, for users to be able to add reviews, I discovered that a user can send more than one review or multiple reviews for the same product(course), which is not always a good practise for an eCommerce website. I then looked out for suggestions for best practices online from Google, and found that I either add a unique constraint in the model to make a user not able to add any more review after the user's first review or I only allow the possibility of a user updating his review. Because this is a course website, it is expected that in the course of training of a user(student), the student might be willing to write more reviews throughout the user's training program or update the first review written. To cater for this need, I decided to enable a user to be able to only write one review but have the possibility of editing and updating it from time to time.
+
+### Solving the Problem of Heroku SMTP Configuration Error
+
+I encountered an SMTP configuration error when I tried to register a new user on the deployed app, which did not occur whenever I hosted the website locally from my workspace on my browser. It was a TypeError that had an Exception Value of "SMTP.starttls() got an unexpected keyword argument 'keyfile'". In trying to solve the error I visited Code Institute's Slack platform and found the recommendations from other colleagues how the problem was solved when they encountered it. The recommendations given to solve the problem, that were unique to the versions of Django and Python I was using was to upgrade my django-allauth to 0.54.0 and to add a runtime.txt file in the root folder of my workspace and input there the version of python Heroku should use in running my workspace, which was python-3.11.9. I applied the given recommendations, and my deployed app had not issues relating to the registration of new users from the user forms.
+
+
 ## Deployment to Heroku
 
 The full-stack project was deployed using the Code Institute's Heroku mock terminal by the following major steps:
