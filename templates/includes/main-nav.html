@@ -5,14 +5,15 @@
                 Home
             </a>
         </li>
+
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Courses
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Courses</a>
             </div>
         </li>
@@ -22,11 +23,11 @@
                 Harmonic Beginnings
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="harmonic-link">
-                <a href="{% url 'products' %}?category=music_theory,theory,music,harmonic_beginnings" class="dropdown-item">Music Theory Basics</a>
-                <a href="{% url 'products' %}?category=violin_fundamentals,violin,harmonic_beginnings" class="dropdown-item">Violin Fundamentals</a>
-                <a href="{% url 'products' %}?category=guitar_basics,guitar,harmonic_beginnings" class="dropdown-item">Guitar Basics</a>
-                <a href="{% url 'products' %}?category=piano_introduction,piano,harmonic_beginnings" class="dropdown-item">Piano Introduction</a>
-		        <a href="{% url 'products' %}?category=saxophone_beginnings,saxophone,harmonic_beginnings" class="dropdown-item">Saxophone Beginnings</a>
+                <a href="{% url 'products' %}?category=Music Theory,Harmonic Beginnings" class="dropdown-item">Music Theory Basics</a>
+                <a href="{% url 'products' %}?category=Violin Fundamentals,Violin,Harmonic Beginnings" class="dropdown-item">Violin Fundamentals</a>
+                <a href="{% url 'products' %}?category=Guitar Basics,Guitar,Harmonic Beginnings" class="dropdown-item">Guitar Basics</a>
+                <a href="{% url 'products' %}?category=Piano Introduction,Piano,Harmonic Beginnings" class="dropdown-item">Piano Introduction</a>
+                <a href="{% url 'products' %}?category=Saxophone Beginnings,Saxophone,Harmonic Beginnings" class="dropdown-item">Saxophone Beginnings</a>
             </div>
         </li>
 
@@ -35,11 +36,11 @@
                 Melodic Journeys
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="melodic-link">
-                <a href="{% url 'products' %}?category=intermediate_music_theory,theory,melodic_journeys" class="dropdown-item">Intermediate Music Theory</a>
-                <a href="{% url 'products' %}?category=violin_techniques,violin,melodic_journeys" class="dropdown-item">Violin Techniques</a>
-                <a href="{% url 'products' %}?category=guitar_intermediate_skills,guitar,melodic_journeys" class="dropdown-item">Guitar Intermediate Skills</a>
-		        <a href="{% url 'products' %}?category=piano_skills_development,piano,melodic_journeys" class="dropdown-item">Piano Skills Development</a>
-		        <a href="{% url 'products' %}?category=saxophone_techniques,saxophone,melodic_journeys" class="dropdown-item">Saxophone Techniques</a>
+                <a href="{% url 'products' %}?category=Intermediate Music Theory,Theory,Melodic Journeys" class="dropdown-item">Intermediate Music Theory</a>
+                <a href="{% url 'products' %}?category=Violin Techniques,Violin,Melodic Journeys" class="dropdown-item">Violin Techniques</a>
+                <a href="{% url 'products' %}?category=Guitar Intermediate Skills,Guitar,Melodic Journeys" class="dropdown-item">Guitar Intermediate Skills</a>
+                <a href="{% url 'products' %}?category=Piano Skill Development,Piano,Melodic Journeys" class="dropdown-item">Piano Skill Development</a>
+                <a href="{% url 'products' %}?category=Saxophone Techniques,Saxophone,Melodic Journeys" class="dropdown-item">Saxophone Techniques</a>
             </div>
         </li>
 
@@ -48,11 +49,11 @@
                 Symphonic Mastery
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="symphonic-link">
-                <a href="{% url 'products' %}?category=advanced_music_theory,theory,symphonic_mastery" class="dropdown-item">Advanced Music Theory</a>
-                <a href="{% url 'products' %}?category=violin_proficiency,violin,symphonic_mastery" class="dropdown-item">Violin Proficiency</a>
-                <a href="{% url 'products' %}?category=guitar_advanced_techniques,guitar,symphonic_mastery" class="dropdown-item">Guitar Advanced Techniques</a>
-                <a href="{% url 'products' %}?category=piano_mastery,piano,symphonic_mastery" class="dropdown-item">Piano Mastery</a>
-                <a href="{% url 'products' %}?category=saxophone_mastery,saxophone,symphonic_mastery" class="dropdown-item">Saxophone Mastery</a>
+                <a href="{% url 'products' %}?category=Advanced Music Theory,Theory,Symphonic Mastery" class="dropdown-item">Advanced Music Theory</a>
+                <a href="{% url 'products' %}?category=Violin Proficiency,Violin,Symphonic Mastery" class="dropdown-item">Violin Proficiency</a>
+                <a href="{% url 'products' %}?category=Guitar Advanced Techniques,Guitar,Symphonic Mastery" class="dropdown-item">Guitar Advanced Techniques</a>
+                <a href="{% url 'products' %}?category=Piano Mastery,Piano,Symphonic Mastery" class="dropdown-item">Piano Mastery</a>
+                <a href="{% url 'products' %}?category=Saxophone Mastery,Saxophone,Symphonic Mastery" class="dropdown-item">Saxophone Mastery</a>
             </div>
         </li>
 
